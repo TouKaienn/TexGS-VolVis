@@ -1,10 +1,10 @@
 <div align="center">
 <h1>TexGS-VolVis:<br>Expressive Scene Editing for Volume Visualization via Textured Gaussian Splatting</h1>
 
-<a href="https://arxiv.org/abs/2507.13586" target="_blank">
-    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2507.13586-red?logo=arxiv" height="20" /></a>
 <a href="https://doi.org/10.1109/TVCG.2025.3634643" target="_blank">
     <img alt="Paper" src="https://img.shields.io/badge/Paper-TVCG-red?logo=ieee" height="20" /></a>
+<a href="https://arxiv.org/abs/2507.13586" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2507.13586-red?logo=arxiv" height="20" /></a>
 <a href="https://github.com/TouKaienn/TexGS-VolVis" target="_blank">
     <img alt="Code" src="https://img.shields.io/badge/Code-TexGS--VolVis-blue?logo=github" height="20" /></a>
 
