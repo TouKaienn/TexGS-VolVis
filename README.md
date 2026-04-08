@@ -292,29 +292,6 @@ The system supports five rendering backends configured via the `-t` flag:
 | `--edit_name` | - | Output folder name for edits |
 | `--edit_steps` | 50 | Edit every N training steps |
 
-## Output Structure
-
-```
-output/<exp_name>/
-├── TF01/
-│   ├── 2dgs/                           # 2DGS base model
-│   │   ├── point_cloud/
-│   │   │   └── iteration_30000/
-│   │   │       └── point_cloud.ply     # Trained 2DGS point cloud
-│   │   ├── cfg_args                    # Saved configuration
-│   │   └── chkpnt30000.pth             # Full checkpoint
-│   ├── texgs/                          # TexGS model
-│   │   ├── point_cloud/
-│   │   │   └── iteration_3000/
-│   │   │       ├── point_cloud.ply     # TexGS point cloud
-│   │   │       ├── texture.npz         # Learned texture atlas
-│   │   │       └── palette_colors_chkpnt.pth  # Palette colors
-│   │   └── visualize/                  # Training visualizations
-│   └── <edit_name>/                    # Edited model variants
-├── TF02/
-│   └── ...
-```
-
 ## Citation
 
 If you find this work useful, please cite:
