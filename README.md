@@ -20,9 +20,10 @@
 
 </div>
 
-TexGS-VolVis is a textured Gaussian splatting framework for volume visualization. It extends 2D Gaussian primitives with learnable texture and shading attributes, enabling geometry-consistent stylization, enhanced lighting control, and real-time rendering. The framework supports image- and text-driven non-photorealistic scene editing, palette-based recoloring, relighting, and 2D-lift-3D segmentation for partial editing with fine-grained control.
 
 ![Workflow](assets/workflow.png)
+
+TexGS-VolVis is a textured Gaussian splatting framework for volume visualization. It extends 2D Gaussian primitives with learnable texture and shading attributes, enabling geometry-consistent stylization, enhanced lighting control, and real-time rendering. The framework supports image- and text-driven non-photorealistic scene editing, palette-based recoloring, relighting, and 2D-lift-3D segmentation for partial editing with fine-grained control.
 
 
 ## Installation
