@@ -1,6 +1,26 @@
-# TexGS-VolVis: Texture Gaussian Splatting for Volume Visualization
+<div align="center">
+<h1>TexGS-VolVis:<br>Expressive Scene Editing for Volume Visualization via Textured Gaussian Splatting</h1>
 
-Textured 2D Gaussian Splatting for volume visualization, supporting learnable textures, palette-based recoloring, relighting, text/image-guided editing, and 3D segment.
+<a href="https://doi.org/10.1109/TVCG.2025.3634643" target="_blank">
+    <img alt="Paper" src="https://img.shields.io/badge/Paper-TVCG-red?logo=ieee" height="20" /></a>
+<a href="https://github.com/TouKaienn/TexGS-VolVis" target="_blank">
+    <img alt="Code" src="https://img.shields.io/badge/Code-TexGS--VolVis-blue?logo=github" height="20" /></a>
+
+<div>
+    <a href="https://toukaienn.github.io/" target="_blank">Kaiyuan Tang</a><sup>1</sup>,
+    <a href="https://kuangshiai.github.io/" target="_blank">Kuangshi Ai</a><sup>1</sup>,
+    <a href="https://stevenhan1991.github.io/" target="_blank">Jun Han</a><sup>2</sup>,
+    <a href="https://sites.nd.edu/chaoli-wang/" target="_blank">Chaoli Wang</a><sup>1</sup>
+</div>
+
+<div>
+    <sup>1</sup>University of Notre Dame&emsp;
+    <sup>2</sup>Hong Kong University of Science and Technology
+</div>
+
+</div>
+
+TexGS-VolVis is a textured Gaussian splatting framework for volume visualization. It extends 2D Gaussian primitives with learnable texture and shading attributes, enabling geometry-consistent stylization, enhanced lighting control, and real-time rendering. The framework supports image- and text-driven non-photorealistic scene editing, palette-based recoloring, relighting, and 2D-lift-3D segmentation for partial editing with fine-grained control.
 
 ![Workflow](assets/workflow.png)
 
